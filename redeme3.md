@@ -1,6 +1,6 @@
 ![one!](/ass/Screenshot (34).png "San Juan Mountains")
 ![two](/ass/Screenshot (35).png )
-![The San Juan Mountains are beautiful!](/ass/Screenshot (36).png "San Juan Mountains")
+![The San Juan Mountains are beautiful!](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dofactory.com%2Fsql%2Fouter-join&psig=AOvVaw0usUvCdrWjY9mdnXvpeDjh&ust=1645733234360000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJijjpjQlvYCFQAAAAAdAAAAABAI "San Juan Mountains")
 ![The San Juan Mountains are beautiful!](/ass/Screenshot (37).png "San Juan Mountains")
 ![The San Juan Mountains are beautiful!](/ass/Screenshot (38).png "San Juan Mountains")
 ![The San Juan Mountains are beautiful!](/ass/Screenshot (39).png "San Juan Mountains")
