@@ -1,4 +1,5 @@
-![The San Juan Mountains are beautiful!](/ass/Screenshot (36).png "San Juan Mountains")
+![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+![The San Juan Mountains are beautiful!](/ass/Screenshot(36).png "San Juan Mountains")
 ![The San Juan Mountains are beautiful!](/ass/Screenshot (37).png "San Juan Mountains")
 ![The San Juan Mountains are beautiful!](/ass/Screenshot (38).png "San Juan Mountains")
 ![The San Juan Mountains are beautiful!](/ass/Screenshot (39).png "San Juan Mountains")
