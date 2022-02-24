@@ -1,3 +1,4 @@
+
 # sql  is relatioanal db
 and it's  stands for
 Structured Query Language
@@ -16,6 +17,7 @@ to select spesific data from the table
  SELECT columns_name FROM table_name;
 in case you went to show all colums 
  SELECT * FROM table_name;
+
 
 ![The San Juan Mountains are beautiful!](/ass/Screenshot(34).png "San Juan Mountains")
 
@@ -54,6 +56,7 @@ method we use with group by to have data from some of colums in table
 
 ![The San Juan Mountains are beautiful!](/ass/Screenshot(43).png "San Juan Mountains")
 ![The San Juan Mountains are beautiful!](/ass/Screenshot(44).png "San Juan Mountains")
+
 ## have
 it work in group like where 
 ![The San Juan Mountains are beautiful!](/ass/Screenshot(45).png "San Juan Mountains")
@@ -64,3 +67,7 @@ FROM table INNER/LEFT/RIGHT JOIN ON
 WHERE condition
 GROUP BY column
 HAVING condition;
+
+![The San Juan Mountains are beautiful!](/ass/Screenshot(45).png "San Juan Mountains")
+
+
