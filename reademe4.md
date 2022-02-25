@@ -30,5 +30,11 @@ a= 10;
 a++;
 System.out.println(a);
 
+## Blocks
+set of zero or more Statements  between balanced braces like =>
+methode()
+{ //start of block
+
+}// the end of block
 
 
