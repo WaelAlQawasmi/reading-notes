@@ -14,6 +14,7 @@ Naming of Variables :
 ## operators : 
  Operators are special characters that do specific operations and then return a result.
  ![The San Juan Mountains are beautiful!](/ass/operatores.png "San Juan Mountains")
+ photo(1)
 
 
 ## Expressions: 
@@ -36,5 +37,12 @@ methode()
 { //start of block
 
 }// the end of block
+
+
+**note**
+ photo(1) Quoted from **[docs of oracle](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html)**
+**referanses:**
+**[docs of oracle](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html)**
+**[w3](https://www.w3schools.com/java/java_methods_param.asp)**
 
 
