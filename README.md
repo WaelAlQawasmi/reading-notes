@@ -10,5 +10,5 @@ I graduated from Tafila University as an electrical engineer and I pursued a dip
 05          |   Loops& Imports|**[link](https://waelalqawasmi.github.io/reading-notes/redeme5)**.
 06          |   Scanning& data type&try|**[link](https://waelalqawasmi.github.io/reading-notes/redeme6)**.
 07          |   oop|**[link](https://waelalqawasmi.github.io/reading-notes/redeme7)**.
-08          |   Big O & linked list|**[link](https://waelalqawasmi.github.io/reading-notes/redeme7)**.
-
+08          |   Big O & linked list|**[link](https://waelalqawasmi.github.io/reading-notes/redeme8)**.
+09         |   Interface&Inheritance|**[link](https://waelalqawasmi.github.io/reading-notes/redeme9)**.
