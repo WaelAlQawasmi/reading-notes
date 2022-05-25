@@ -13,3 +13,4 @@ I graduated from Tafila University as an electrical engineer and I pursued a dip
 08          |   Big O & linked list|**[link](https://waelalqawasmi.github.io/reading-notes/redeme8)**.
 09         |   Interface&Inheritance|**[link](https://waelalqawasmi.github.io/reading-notes/redeme9)**.
 10         |   Graphs|**[link](https://waelalqawasmi.github.io/reading-notes/redeme10)**.
+11        |   Amplify and Cognito|**[link](https://waelalqawasmi.github.io/reading-notes/redeme11)**.
