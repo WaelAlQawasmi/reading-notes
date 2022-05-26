@@ -59,3 +59,9 @@ where  we represent graph by a 2d array
 - Social Networks
 - Airline Traffic
 - Netflix uses graphs for suggestions of products
+
+ 
+
+
+## recourses 
+https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/graphs.html 
