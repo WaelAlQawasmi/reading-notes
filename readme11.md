@@ -1,6 +1,6 @@
-#Amplify and Cognito
+# Amplify and Cognito
 
-##Amplify AUTHENTICATION
+## Amplify AUTHENTICATION
  we can use the Amplify Auth category  in case we need to authentication because it provides an interface for 
  authenticating a user
  and in the backend it provide  the necessary authorization to the other Amplify categories
@@ -48,7 +48,7 @@ result -> Log.i("AmplifyQuickstart", result.toString()),
 error -> Log.e("AmplifyQuickstart", error.toString())
 );
 
-##Sign in
+## Sign in
 
 ### Prerequisites
 - Amplify AUTHENTICATION
@@ -85,4 +85,12 @@ error -> Log.e("AuthQuickStart", "Sign up failed", error)
 
 - if you see in windows termainal  this line than mean all thing ok
 > Sign in succeeded
+ ## Things I want to know more about
+
+-I would like to learn more about  authentication and how to do that in more  detail
+
+
+resources:
+[resources] (https://docs.amplify.aws/lib/auth/getting-started/q/platform/android/)
+
 
