@@ -16,3 +16,4 @@ I graduated from Tafila University as an electrical engineer and I pursued a dip
 11        |   Amplify and Cognito|**[link](https://waelalqawasmi.github.io/reading-notes/readme11)**.
 12        |   Amazon S3 |**[link](https://waelalqawasmi.github.io/reading-notes/readme12)**.
 13        |   Notifications|**[link](https://waelalqawasmi.github.io/reading-notes/readme13)**.
+14       |   location|**[link](https://waelalqawasmi.github.io/reading-notes/readme14)**.
