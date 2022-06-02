@@ -17,3 +17,5 @@ I graduated from Tafila University as an electrical engineer and I pursued a dip
 12        |   Amazon S3 |**[link](https://waelalqawasmi.github.io/reading-notes/readme12)**.
 13        |   Notifications|**[link](https://waelalqawasmi.github.io/reading-notes/readme13)**.
 14       |   location|**[link](https://waelalqawasmi.github.io/reading-notes/readme14)**.
+15       |   GraphQL|**[link](https://waelalqawasmi.github.io/reading-notes/readme15)**.
+16      |   Publish your app|**[link](https://waelalqawasmi.github.io/reading-notes/readme16)**.
