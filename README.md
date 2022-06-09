@@ -20,4 +20,5 @@ I graduated from Tafila University as an electrical engineer and I pursued a dip
 15       |   GraphQL|**[link](https://waelalqawasmi.github.io/reading-notes/readme15)**.
 16      |   Publish your app|**[link](https://waelalqawasmi.github.io/reading-notes/readme16)**.
 17      |   Polly & Pinpoint|**[link](https://waelalqawasmi.github.io/reading-notes/readme17)**.
-18      |   AdMob & ethical principles|**[link](https://waelalqawasmi.github.io/reading-notes/readme18)**.
+18      |   AdMob |**[link](https://waelalqawasmi.github.io/reading-notes/readme18)**.
+19      |   ethical principles|**[link](https://waelalqawasmi.github.io/reading-notes/readme19)**.
