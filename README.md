@@ -22,3 +22,4 @@ I graduated from Tafila University as an electrical engineer and I pursued a dip
 17      |   Polly & Pinpoint|**[link](https://waelalqawasmi.github.io/reading-notes/readme17)**.
 18      |   AdMob |**[link](https://waelalqawasmi.github.io/reading-notes/readme18)**.
 19      |   ethical principles|**[link](https://waelalqawasmi.github.io/reading-notes/readme19)**.
+20     |   Open-source software (OSS)|**[link](https://waelalqawasmi.github.io/reading-notes/readme20)**.
