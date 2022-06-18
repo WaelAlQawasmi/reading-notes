@@ -112,3 +112,6 @@ method eliminates leading and trailing spaces
 
 ### endsWith()
 > System.out.println(s1.endsWith("point"));  // false
+
+## ref
+[java-string](https://www.javatpoint.com/java-string-charat)
