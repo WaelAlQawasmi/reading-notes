@@ -1,6 +1,8 @@
 public class Main{
 
     public static void main(String[] args) {
-        System.out.println("wael");
+char[] arr= {'a','b','c'};
+
+
     }
         }
