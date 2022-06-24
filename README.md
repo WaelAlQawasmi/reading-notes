@@ -25,4 +25,7 @@ I graduated from Tafila University as an electrical engineer and I pursued a dip
 20     | Open-source software (OSS)                                     |**[link](https://waelalqawasmi.github.io/reading-notes/readme20)**.
 21     | Java Foundations Exam Number: 1Z0-811 (part1)                  |**[link](https://waelalqawasmi.github.io/reading-notes/readme21)**.
 22    | Java Foundations Exam Number: 1Z0-811 (part2) -string methods- |**[link](https://waelalqawasmi.github.io/reading-notes/readme22)**.
-23    | Java Foundations Exam Number: 1Z0-811 (part3) -array list-     |**[link](https://waelalqawasmi.github.io/reading-notes/readme23)**.
+23    | Java Foundations Exam Number: 1Z0-811 (part3) -Random and math class-     |**[link](https://waelalqawasmi.github.io/reading-notes/readme23)**.
+24    | Java Foundations Exam Number: 1Z0-811 (part4) -Arrays and ArrayLists -     |**[link](https://waelalqawasmi.github.io/reading-notes/readme24)**.
+25    | Java Foundations Exam Number: 1Z0-811 (part5) -class and OOP -     |**[link](https://waelalqawasmi.github.io/reading-notes/readme25)**.
+
