@@ -1,4 +1,5 @@
 # git and gitHub
+
 ## Repository
 1. to colone broject from github to git to specific directory __without create new deirectory inside it__
 > git clone "Your Repository URL" .
@@ -113,5 +114,7 @@ if you want to ignore and diretory
 if you want to ignore any file
 
 > text.txt
+
+
 
 
