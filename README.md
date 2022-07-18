@@ -30,5 +30,8 @@ I graduated from Tafila University as an electrical engineer and I pursued a dip
 25    | Java Foundations Exam Number: 1Z0-811 (part5) -class and OOP -     |**[link](https://waelalqawasmi.github.io/reading-notes/readme25)**.
 26    | Java Foundations Exam Number: 1Z0-811 (part6) -multithreading-     |**[link](https://waelalqawasmi.github.io/reading-notes/readme26)**.
 27   |  git-github Foundations     |**[link](https://waelalqawasmi.github.io/reading-notes/readme27)**.
+28   |  Spring security   |**[link](https://waelalqawasmi.github.io/reading-notes/readme28)**.
+29  |  JAVA 8   |**[link](https://waelalqawasmi.github.io/reading-notes/readme29)**.
+
 
 
