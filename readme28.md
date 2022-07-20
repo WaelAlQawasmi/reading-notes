@@ -49,9 +49,10 @@ __this methode is responsible for authentiction__
         - in this case you must bulid __userDetailsService__
 
              ![security](ass/serverDete.png)
-    2. inMemoryAuthentication
+    2. inMemoryAuthentication ()
         ![web](ass/enablesec.png)
-__you shouldn't use this way in ecoding password(i use it here just for testing)__
+__you shouldn't use this way in ecoding password(i use it here just for testing because this way don't encode the password and i can add directly the password- without ecodeing- and the app can read it) The pest bractice like this below__
+    ![bestBractiseEncosd.png](ass/bestBractiseEncosd.png)
     - best practice for password by ecoding password
 
 7. @EnableWebSecurity //to enable Spring Security’s web security support and provide the Spring MVC integration.
@@ -97,7 +98,7 @@ by @override configure(HttpSecurity http)
     
 
 
-##  JDBC authentication from scratch(Manual UserDetailsService)
+#  JDBC authentication from scratch(Manual UserDetailsService)
 -  JDBC or Java Database Connectivity is a Java API to connect and execute the query with the database.
 - Architecture-of-JDBC2
 
@@ -115,6 +116,73 @@ Embedded and server modes; in-memory databases
     3. hadle thee security configuration and add __DataSource__
     ![security](./ass/manSec.png)
 
+# Spring Security with JPA authentication and MySQL
 
+- add dependencies for :
+    1. spring-security
+    2. spring data JPA
+    3. MySQL Driver
+- create web Security Configurer __CLASS__ and extend from webSecurityConfigurerAdapter
+
+
+
+- @Override configur __AuthenticationManagerBuilder__
+    
+    - add password encoder methode note that __@Bean to create methode  return  instance__
+        - in case you want to encode the password when add to DB
+    - ![passEncoder.png](ass/passEncoder.png)
+    - ansy AuthenticationManagerBuilder need to provider and the provider need __userDetailsService__ to load user by username
+    ![userDeales.png](ass/userDeales.png)
+    ![secU.png](ass/secU.png)
+
+- @Override configur __HttpSecurity__
+    - ![httpSecurity](ass/httpSecurity.png)
+- @Autowired userDetailsService __note that we use  @Autowired use to access to the privet methods and properties of the instanse htat autowired__
+
+    > @Autowired
+
+    > UserDetailsService userDetailsService;
+
+-  create  class for user 
+    - let the users class implements UserDetails
+    - make the enable and other @override methods return true
+    - create user properties of the the user __you have to create the properties for username and password__
+    -__@Entity // to crate table for this class__
+    ![useerEntity.png](ass/useerEntity.png)
+    __if you want to add Roles and Lock , expired..ect , you can do that for proles like in exaple below and for other @overide methode you can add properties and call it in the methodes__
+    ![AuthEntity.png](ass/authEntity.png)
+- create repository to make query at the entity 
+and create method to find user by username 
+![usersRebo](ass/userRebo.png)
+- create class to implent from  userDetailsService  and  @override method of loadUserByUsername to retern the the instance of user __the class of user instance that the loadUserByUsername method returned have to inherit from userDetails__
+![userDServes.png](ass/userDServes.png)
+
+- In web Security Configurer CLASS add the configer(httpSecurity)
+    - .hasAuthority() method is call the __getAuthorities()__ in userDetails entity
+
+
+![httpConfig.png](ass/httpConfiger.png)
+
+- open database and create new database and name it for example __examsys__
+- go to application.properties and configure properties
+>server.port=8081 #port of server
+
+> spring.datasource.url=jdbc:mysql://localhost:3306/examsys  #the local  url for msql database  and the name of it examsys
+
+> spring.datasource.username=root    # database username
+
+> spring.datasource.password=        # database passwoer
+
+>spring.jpa.hibernate.ddl-auto=update  # the data in database
+
+![proberites.png](ass/proberites.png)
+## summary
+ you must build
+ 1.  class for users as @entity and inherit it from userDetails and make all @override true  and if you need to roules  you can use getAuthorities() method, and in entity must have username and password __you can use email as username by make the @override getUsername() method retern it.
+ 2. Repository and bulid methode to find by username 
+ 3. UserDetailsService to load By username by call the findByUsername method from repository
+ 4. create webSecurityConfigureration and inherit from webSecurityConfigurerAdapter and @override configur(httpSecurity) for otherizations and @override configur(AuthenticationManagerBuilder) for Authentication . 
+
+ 5. create new database  and  configure properties of application.properties and 
 
 
