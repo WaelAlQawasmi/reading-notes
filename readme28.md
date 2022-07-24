@@ -185,4 +185,83 @@ and create method to find user by username
 
  5. create new database  and  configure properties of application.properties and 
 
+# LDAP Authentication
+## what is LDAP 
+- LDAP : Lightweight directory access protocol (LDAP) is a protocol that makes it possible for applications to query user information rapidly.
+-  accessing and maintaining distributed directory information services over an Internet Protocol (IP) network.
+- The common use of LDAP for stor thr Organization information
+- can provide that solution by allowing Organization to store and access employee contact information in a central location. Businesses can save time and money by using an LDAP server while improving employee communication.
+
+- Someone within your office wants to do two things: Send an email to a recent hire and print a copy of that conversation on a new printer. LDAP (lightweight directory access protocol) makes both of those steps possible.
+
+## How LDAP works?
+An LDAP query typically involves:
+
+1. Session connection. The user connects to the server via an LDAP port. 
+1. Request. The user submits a query, such as an email lookup, to the server. 
+1. Response. The LDAP protocol queries the directory, finds the information, and delivers it to the user. 
+1. Completion. The user disconnects from the LDAP port.
+![how-ldap-works.png](ass/how-ldap-works.png)
+## build LDAP Authentication with spring security
+1. add dependencies of LDAP server and spring security
+
+
+        <dependency>
+			<groupId>org.springframework.ldap</groupId>
+			<artifactId>spring-ldap-core</artifactId>
+		</dependency>
+
+    	<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-ldap</artifactId>
+		</dependency>
+
+
+		 < dependency>
+			< groupId>com.unboundid</groupId>
+			<artifactId>unboundid-ldapsdk</artifactId>
+			<version>4.0.14</version>
+			<scope>runtime</scope>
+		</dependency>
+1. Add ldap-server file 
+     1.  create __ldap-server.ldif__ in resources
+     2.  put user data on it:
+      >
+      - uid: user id
+      - ou : organisation unit
+      - dc:domain component
+      > 
+      - dn: uid=bob,ou=people,
+      - dc=springframework,dc=org
+      - objectclass: top
+      
+    - objectclass: person
+    - objectclass: organizationalPerson
+    - objectclass: inetOrgPerson
+    - cn: Bob Hamilton
+    - sn: Hamilton
+    - uid: bob
+    - userPassword: bobspassword
+
+1. Configure the LDAP in application.properties
+by adding the following
+ > 
+- spring.ldap.embedded.port = 8389 # the port of LDAP
+- spring.ldap.embedded.ldif = classpath:ldap-server.ldif  #the namr of file
+- spring.ldap.embedded.base-dn = dc=springframework,dc=org   #the head of data in the file
+1. create class for securityConfigration extend from webSecurityConfigurerAdapter
+    1. override http configur  methode
+        ![LDAPhttpSecurity.png](ass/LDAPhttpSecurity.png)
+    2. override AuthenticationManagerBuilder configur methode
+![AuthMbilder.png](ass/AuthMbilder.png)
+
+        
+
+
+
+
+
+
+
+
 
