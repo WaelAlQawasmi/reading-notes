@@ -254,6 +254,39 @@ by adding the following
         ![LDAPhttpSecurity.png](ass/LDAPhttpSecurity.png)
     2. override AuthenticationManagerBuilder configur methode
 ![AuthMbilder.png](ass/AuthMbilder.png)
+# JWT 
+- JWT (json-web-tokens)
+- __HTTP protocol is stateless that means 
+every HTTP request the server receives is independent and does not relate to requests that came prior to it__
+- so because http is stateless you should send security credentials on eash request
+# Authorization Stutuges
+## Session token
+- Session Authentication
+A session is a small file, most likely in JSON format, that stores information about the user, such as a unique ID, time of login and expirations, and so on. It is generated and stored on the server so that the server can keep track of the user requests. The user receives some of these details, especially the ID, as cookies that will be sent with every new request, so that the server can recognize the ID and authorize the user’s requests.
+
+- Working
+    1. The user sends a login request to the server.
+    2. The server authenticates the login request, __sends a session to the database, and returns a cookie containing the session ID__ to the user.
+    3. Now, the user sends new requests (with a cookie).
+    4. The server checks in the database for the ID found in the cookie, if the ID is found it sends the requested pages to the user.
+![seeeionToken.png](ass/seeeionToken.png)
+
+- if you don't use CORS protection you'r website  exposed to attack with __CSRF  vulnerability__
+and you can handle this vulnerability [unti CSRF ](https://knowledge-base.secureflag.com/vulnerabilities/cross_site_request_forgery/cross_site_request_forgery_php.html)
+
+- if you have multi server you can face aproblem when you change from server to another server
+![loadBlancer.png](ass/loadBlancer.png)
+the solution is
+![sloution.png](ass/sloution.png)
+
+
+## json- web-token
+ - working
+1. Server generates an "accessToken", encrypting the "userId" and "expiresIn", with the ACCESS_TOKEN_SECRET, 
+and sends the "accessToken" to the browser (client side).
+2. The browser (client side) receives the "accessToken" and saves it on the client side.
+3. The "accessToken" is included in every subsequent request to the server
+![jwt.jpeg](ass/jwt.jpeg)
 
         
 
