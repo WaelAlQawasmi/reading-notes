@@ -325,7 +325,7 @@ and sends the "accessToken" to the browser (client side).
 5. override AuthenticationManagerBuilder configur  methode
 6. Autowired userDetailsService after building it
 7. Been passwordEncoder
-8. 
+8.  [code from here](https://github.com/koushikkothagal/spring-security-jwt)
         
 
 
