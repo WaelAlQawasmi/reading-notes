@@ -281,13 +281,51 @@ the solution is
 
 
 ## json- web-token
- - working
-1. Server generates an "accessToken", encrypting the "userId" and "expiresIn", with the ACCESS_TOKEN_SECRET, 
-and sends the "accessToken" to the browser (client side).
-2. The browser (client side) receives the "accessToken" and saves it on the client side.
-3. The "accessToken" is included in every subsequent request to the server
-![jwt.jpeg](ass/jwt.jpeg)
 
+ - working
+    1. Server generates an "accessToken", encrypting the "userId" and "expiresIn", with the ACCESS_TOKEN_SECRET, 
+and sends the "accessToken" to the browser (client side).
+    2. The browser (client side) receives the "accessToken" and saves it on the client side.
+    3. The "accessToken" is included in every subsequent request to the server
+![jwt.jpeg](ass/jwt.jpeg)
+ ![jwtWork.png](ass/jwtWork.png)
+- JWT Structure
+    - JWT consists of __three parts__ serprated by points
+   
+![jwtStructuer.png](ass/jwtStructuer.png)
+
+    1. header 
+        - it contains __encrypting base64__
+ json data that contains the algorithm of hashing the signature and the type
+    2. PAYLOAD
+        - in containe s __encrypting base64__
+    ![datejwr1.png](ass/dataJwt1png.png)
+ json data that contains the data that need no used like uername and the name of user
+       - don't put and secret data because you can decode and see the data
+    3. Structure
+    - It contains from hashing code (code you can't decode it) 
+    ![datejwr1.png](ass/dataJwt2.png)
+
+![jwtSruc.png](ass/jwtSruc.png)
+# Bulid JWT from secratch
+1. create project add put the dependencies of spring web and security
+2. add dependencies of JWT
+    > 	<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.9.1</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.3.0</version>
+		</dependency>
+3. Add the class of web configure and extend from webSecurityConfigurerAdapter
+4. Override http configure method
+5. override AuthenticationManagerBuilder configur  methode
+6. Autowired userDetailsService after building it
+7. Been passwordEncoder
+8. 
         
 
 
