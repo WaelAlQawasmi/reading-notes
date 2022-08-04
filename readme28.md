@@ -325,7 +325,16 @@ and sends the "accessToken" to the browser (client side).
 5. override AuthenticationManagerBuilder configur  methode
 6. Autowired userDetailsService after building it
 7. Been passwordEncoder
-8. 
+8.  [code from here](https://github.com/koushikkothagal/spring-security-jwt)
+
+# OAuth
+- OAuth ("Open Authorization") is an open standard for access delegation, commonly used as a way for internet users to grant websites or applications access to their information on other websites but without giving them the passwords.
+- it use to give __limited access__ to the 3rd party website to access to specific information or services.
+- for example facebook (when you login on your website by facebook, g
+,google ...etc)
+![auth2](ass/slack_oauth_flow_diagram.png)
+![auth2](ass/Auth21.png)
+
         
 
 
