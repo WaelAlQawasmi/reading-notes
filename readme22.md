@@ -92,6 +92,32 @@ output-> String value
 input->floating point
 output-> decimal number
 
+### prinf() & format()
+- print formatted  the java change the %x with value in the formatted you need
+- x
+  - s -> string 
+    - if you want to print with number of spaces before the string %(NumberOfSpaces)S
+    - System.out.printf("%3s", "hi");      //  -->  "   hi"
+    - if you want to print with number of spaces after the string %(-NumberOfSpaces)S
+    - System.out.printf("%-3s koo", "hi");      //  -->  "hi   koo"
+
+  - f -> float
+     - if you need three places(خانات)  and  one decimal places(الخانات العشرية) %3.1f
+     - System.out.printf("Hello World %03.1f",222.2222);
+     - output -> 222.1
+     -     long n = 461012;
+     -  System.out.format("%d%n", n);      //  -->  "461012"
+     -  System.out.format("%08d%n", n);    //  -->  "00461012"
+      - System.out.format("%+8d%n", n);    //  -->  " +461012"
+     -  System.out.format("%,8d%n", n);    // -->  " 461,012"
+     -  System.out.format("%+,8d%n%n", n); //  -->  "+461,012"
+
+  - d -> integer
+    - if you need two decimal places(الخانات العشرية) %
+  - c ->character
+    - System.out.printf("%c+%c",'A','B'); //A+B
+
+
 ### indexOf(int ch)
 > int index1=s1.indexOf("is");//returns the index of is substring 
 

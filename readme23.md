@@ -13,7 +13,8 @@ System.out.println(random.nextGaussian()); //1.4877581394085997
 >  Math.PI;
 > Math.sqrt(y)
 > Math.pow(x, y)
-
+![mathMethode.png](ass/mathMethode.png)
+![compound.png](ass/compound.png)
 
 ## Decision Statements
 - if / if else
