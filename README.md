@@ -32,6 +32,7 @@ I graduated from Tafila University as an electrical engineer and I pursued a dip
 27   |  git-github Foundations     |**[link](https://waelalqawasmi.github.io/reading-notes/readme27)**.
 28   |  Spring security   |**[link](https://waelalqawasmi.github.io/reading-notes/readme28)**.
 29  |  JAVA 8   |**[link](https://waelalqawasmi.github.io/reading-notes/readme29)**.
+30  |  Linked List & Array  |**[link](https://waelalqawasmi.github.io/reading-notes/readme30.md)**.
 
 
 
