@@ -34,7 +34,8 @@ I graduated from Tafila University as an electrical engineer and I pursued a dip
 29  |  JAVA 8   |**[link](https://waelalqawasmi.github.io/reading-notes/readme29)**.
 30  |  Linked List & Array  |**[link](https://waelalqawasmi.github.io/reading-notes/readme30.md)**.
 31  | binary-search  |**[link](https://www.geeksforgeeks.org/binary-search/)**.
-31  | two-pointers-technique  |**[link](https://www.geeksforgeeks.org/two-pointers-technique/)**.
+32  | two-pointers-technique  |**[link](https://www.geeksforgeeks.org/two-pointers-technique/)**.
+33  | window-sliding-technique |**[link](https://www.geeksforgeeks.org/window-sliding-technique/)**.
 
 
 
