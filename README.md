@@ -36,6 +36,7 @@ I graduated from Tafila University as an electrical engineer and I pursued a dip
 31  | binary-search  |**[link](https://www.geeksforgeeks.org/binary-search/)**.
 32  | two-pointers-technique  |**[link](https://www.geeksforgeeks.org/two-pointers-technique/)**.
 33  | window-sliding-technique |**[link](https://www.geeksforgeeks.org/window-sliding-technique/)**.
+34  | Fast and slow pointer technique in Linked List |**[link](https://iq.opengenus.org/fast-and-slow-pointer-technique/)**.
 
 
 
