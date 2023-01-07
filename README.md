@@ -38,6 +38,7 @@ I graduated from Tafila University as an electrical engineer and I pursued a dip
 33  | window-sliding-technique |**[link](https://www.geeksforgeeks.org/window-sliding-technique/)**.
 34  | Fast and slow pointer technique in Linked List |**[link](https://iq.opengenus.org/fast-and-slow-pointer-technique/)**.
 35 | laravel-translation-manager |**[link](https://packagist.org/packages/highsolutions/laravel-translation-manager#dev-master)**.
+36 | all about tree data structures |**[link](https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c/)**.
 
 
 
